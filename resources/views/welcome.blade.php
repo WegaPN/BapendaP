@@ -7,13 +7,13 @@
             <h1>BAPENDA KOTA BANDUNG</h1>
             <h3 class="text-xl my-2 mx-auto">Cara Mudah Untuk Kamu Ingat Pajak</h3>
         </div>
-        <div class="w-96 mx-auto flex md:ml-5">
+        {{-- <div class="w-96 mx-auto flex md:ml-5">
             <img src="{{asset("img/hero.png")}}" alt="HeroPict">
-        </div>
+        </div> --}}
     </div>
 
     {{-- Widget --}}
-    <section class="counter-widget__container sticky top-[64px] md:top-[80px] xl:top-[96px] grid grid-cols-[319px,auto] md:grid-cols-[418px,auto] items-start max-w-max mb-6
+    {{-- <section class="counter-widget__container sticky top-[64px] md:top-[80px] xl:top-[96px] grid grid-cols-[319px,auto] md:grid-cols-[418px,auto] items-start max-w-max mb-6
         transition-transform ease-in duration-150 counter-widget__container--open" data-v-6616e47a="">
         <div class="w-full h-full max-h-[80vh] md:max-h-[600px] py-[18px] px-[26px] rounded-lg overflow-y-auto pointer-events-auto bg-[#1565C0]"
             data-v-6616e47a="">
@@ -84,7 +84,7 @@
                 </p>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     {{-- Caraousel Iklan Bapenda --}}
     <section class="flex items-center justify-center w-full mx-auto px-4 py-6 2xl:px-0 xl:w-full">
