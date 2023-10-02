@@ -1,7 +1,8 @@
-<x-app-layout>
+@extends('layouts.app')
+@section('content')
 
     {{-- Hero --}}
-    <div class="bgjar w-full h-screen object-cover items-center flex bg-no-repeat">
+    <div class="bg-sky-950 w-full h-screen object-cover items-center flex bg-no-repeat">
         <div class="max-w-7xl mx-auto md:ml-5 text-6xl text-white md:text-start ">
             <h4 class="text-center text-2xl my-2 mx-auto sm:text-start capitalize">SELAMAT DATANG DI WEBSITE RESMI</h4>
             <h1>BAPENDA KOTA BANDUNG</h1>
@@ -385,8 +386,7 @@
             <div class="row-span-2 col-span-2 ...">03</div>
         </div> --}}
     </div>
-</x-app-layout>
-
+@endsection
 <script type="text/javascript">
     $(document).ready(function () {
         $(".owl-carousel").owlCarousel({

@@ -12,8 +12,8 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css"  rel="stylesheet" />
         <link rel="stylesheet" href="{{ asset('/node_module/owl.carousel/dist/assets/owl.carousel.min.css') }}" />
-        {{-- <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" /> --}}
-        
+        <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">        
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
        
@@ -35,7 +35,7 @@
             
             <!-- Page Content -->
             <main>
-                {{ $slot }}
+                @yield('content')
                 
             </main>
             @include('components.footer')
@@ -47,8 +47,9 @@
         {{-- <script src="{{ asset('/node_module/jquery/dist/jquery.js')}} "></script> --}}
         <script src="{{ asset('/node_module/owl.carousel/dist/owl.carousel.min.js') }} "></script>
     	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" > </script>
+        <script src="jquery.min.js"></script>
+        <script src="owlcarousel/owl.carousel.min.js"></script>
         
- 
 
     </body>
 </html>
